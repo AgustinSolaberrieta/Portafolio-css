@@ -1,0 +1,32 @@
+.contenedor {
+  background-color: #bca99e;
+  margin-top: -10px;
+  margin-left: 0%;
+  display: flex; /* Agrega flexbox al contenedor principal */
+  align-items: center;
+  justify-content: space-between; /* Alinea los elementos hacia los extremos del contenedor */
+  padding: 10px;
+}
+.nombres {
+  border: solid 2px blue;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* ul {
+  list-style-type: none;
+} */
+.nombres h4 {
+  color: #312c36;
+  font-family: "Bebas Neue", sans-serif;
+  display: inline-block;
+  margin: 12px;
+  border: solid 2px red;
+  font-size: 160%;
+}
+
+@media screen and (max-width: 700px) {
+  .nombres h4 {
+    font-size: 14px; /* Tamaño de fuente para pantallas más grandes */
+    margin: 5px;
+  }
+}
